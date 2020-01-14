@@ -1,0 +1,64 @@
+@import "./Constants.scss";
+
+* {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+html{
+    font-size: 6px;
+    @media screen and (min-width: $sm){
+        font-size: 9px;
+    }
+    @media screen and (min-width: $md){
+        font-size: 10px;
+    }
+}
+
+h1, 
+h2,
+h3
+{
+    font-family: 'Poppins', sans-serif;
+    color: white;
+}
+
+h1{
+    font-size: 6rem;
+    line-height: 10rem;
+}
+
+h3{
+    font-size: 2.4rem;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+h2{
+    font-size: 2.8rem;
+    font-family: 'Roboto Mono', monospace;
+}
+h4{
+    font-family: 'Roboto Mono', monospace;
+    font-size: 2rem;
+    color: white;
+    text-align: right;
+    margin-bottom: 2rem;
+}
+h5{
+    font-family: 'Roboto Mono', monospace;
+    font-size: 2rem;
+    color: white;
+    margin-bottom: 2rem;
+}
+
+a{
+    color: white;
+}
+
+p{
+    font-size: 2rem;
+    color: white;
+    font-family: 'Poppins', auto;
+    line-height: 2.8rem;
+}
