@@ -10,7 +10,7 @@ import Navbar from './components/navbar';
 import ContactFooter from './components/footer';
 
 setConfiguration({
-  gutterWidth: 80,
+  gutterWidth: 50,
   containerWidths: [2000, 2000, 2000, 2000]
 });
 

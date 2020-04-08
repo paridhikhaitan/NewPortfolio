@@ -6,6 +6,7 @@ import About from '../pages/About'
 import FBUCodepath from '../pages/FBUCodepath'
 import InfoPost from '../pages/InfoPost'
 import Miscellaneous from '../pages/Misc'
+import DesignCommunity from '../pages/DesignCommunity'
 
 class Main extends React.Component{
     render(){
@@ -17,6 +18,7 @@ class Main extends React.Component{
                     <Route path='/fbu' component={FBUCodepath}/>
                     <Route path='/infopost' component={InfoPost}/>
                     <Route path='/miscellaneous' component={Miscellaneous}/>
+                    <Route path='/designCommunity' component={DesignCommunity} />
                 </Switch>
             </main>
         );
