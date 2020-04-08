@@ -87,8 +87,29 @@ button:hover {
   }
 }
 
-.workTile{
+.footer {
+  position: absolute;
+  bottom: $spacer2;
+  z-index: 999;
+
+  display: flex;
+}
+
+#work {
+  position: fixed;
+  font-size: 16rem;
+  font-weight: 800;
+  opacity: 0.2;
+  top: $spacer4;
+  left: $spacer3;
+}
+
+.workTile {
   width: 100%;
+}
+
+#workList {
+  margin-top: $spacer4*1.5;
 }
 
 .misc {

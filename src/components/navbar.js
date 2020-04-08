@@ -14,7 +14,7 @@ class Navbar extends React.Component {
         </h4>
         <h4>
           <a
-            href="https://drive.google.com/file/d/1lo8xrSovJn_EAeKCQk2LK-hU6aJUirxF/view?usp=sharing"
+            href="https://drive.google.com/file/d/1vXAjSAojqlUu8yTRlc57LJhYG0KNH-Xp/view?usp=sharing"
             target="_blank"
           >
             resumé

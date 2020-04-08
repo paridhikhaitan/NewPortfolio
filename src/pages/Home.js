@@ -9,8 +9,15 @@ import AwesomeSlider from "react-awesome-slider";
 import "react-awesome-slider/dist/styles.css";
 
 const workList = work.map(tile => (
-  <Col md={4} style={{ marginBottom: spacer3, marginTop: tile.margin }}>
-    <div style={{ width: "80%" }}>
+  <Col md={5} style={{ marginBottom: spacer3, marginTop: tile.margin }}>
+    <div
+      style={{
+        width: "80%",
+        marginLeft: "auto",
+        marginRight: "auto",
+        display: "block"
+      }}
+    >
       <Tilt>
         <a href={tile.web}>
           <img
@@ -34,9 +41,9 @@ class Home extends React.Component {
         <Navbar />
         <Container>
           <Row>
-            <h1>WORK</h1>
+            <h1 id="work">WORK</h1>
           </Row>
-          <Row justify="center" style={{ marginTop: spacer4 }}>
+          <Row justify="center" id="workList">
             {workList}
           </Row>
         </Container>

@@ -2,6 +2,7 @@ import React from "react";
 import Particles from "react-particles-js";
 import { Container, Row, Col } from "react-grid-system";
 import Navbar from "../components/navbar";
+import Footer from "../components/footer";
 
 class parts extends React.Component {
   render() {
