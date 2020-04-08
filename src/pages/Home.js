@@ -9,18 +9,21 @@ import AwesomeSlider from "react-awesome-slider";
 import "react-awesome-slider/dist/styles.css";
 
 const workList = work.map(tile => (
-  <Col md={5} style={{ marginBottom: spacer3, marginTop: tile.margin }}>
-    <Tilt>
-      <a href={tile.web}>
-        <img
-          src={require(`../images/workImages/${tile.imgLink}.png`)}
-          alt={tile.company}
-        />
-      </a>
+  <Col md={4} style={{ marginBottom: spacer3, marginTop: tile.margin }}>
+    <div style={{ width: "80%" }}>
+      <Tilt>
+        <a href={tile.web}>
+          <img
+            src={require(`../images/workImages/${tile.imgLink}.png`)}
+            alt={tile.company}
+            className="workTile"
+          />
+        </a>
 
-      <h2 style={{ marginTop: spacer2 }}> {tile.position} </h2>
-      <h3 style={{ marginTop: spacer1 }}> {tile.company} </h3>
-    </Tilt>
+        <h2 style={{ marginTop: spacer2 }}> {tile.position} </h2>
+        <h3 style={{ marginTop: spacer1 }}> {tile.company} </h3>
+      </Tilt>
+    </div>
   </Col>
 ));
 
@@ -28,23 +31,11 @@ class Home extends React.Component {
   render() {
     return (
       <div>
+        <Navbar />
         <Container>
           <Row>
-            <Col md={9}>
-              <div style={{}}>
-                <h1>
-                  Hi! I'm <span className="stroke">Paridhi</span>.
-                </h1>
-                <h1>
-                  I'm a <span className="stroke">developer</span> +{" "}
-                  <span className="stroke">designer </span>
-                  who is passionate about diversity, inclusion and
-                  accessibility!
-                </h1>
-              </div>
-            </Col>
+            <h1>WORK</h1>
           </Row>
-          {/*<img src={require("../images/designCommunity.gif")} style={{width: "50%"}}/>*/}
           <Row justify="center" style={{ marginTop: spacer4 }}>
             {workList}
           </Row>

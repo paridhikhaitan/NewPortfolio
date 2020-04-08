@@ -1,6 +1,7 @@
 import React from "react";
 import Particles from "react-particles-js";
 import { Container, Row, Col } from "react-grid-system";
+import Navbar from "../components/navbar";
 
 class parts extends React.Component {
   render() {
@@ -17,7 +18,7 @@ class parts extends React.Component {
           params={{
             particles: {
               number: {
-                value: 50
+                value: 60
               },
               move: {
                 direction: "random",
@@ -37,6 +38,7 @@ class parts extends React.Component {
             }
           }}
         />
+        <Navbar />
         <div className="splashHeading">
           <div>
             <h1>
