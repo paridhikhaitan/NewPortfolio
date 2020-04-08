@@ -53,12 +53,14 @@ class DesignCommunity extends React.Component {
           </Row>
           <Row justify="center" align="middle">
             <Col xs={6} md={3}>
-              <a href="">
+              <a href="http://community.ucsddesign.co/">
                 <button>VISIT SITE</button>
               </a>
             </Col>
             <Col xs={6} md={3}>
-              <button>VIEW GITHUB</button>
+              <a href="https://github.com/ucsddesignco/designcommunity20">
+                <button>VIEW GITHUB</button>
+              </a>
             </Col>
           </Row>
           <Row>
