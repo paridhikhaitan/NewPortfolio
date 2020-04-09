@@ -99,10 +99,29 @@ button:hover {
   position: fixed;
   font-size: 16rem;
   font-weight: 800;
-  opacity: 0.2;
+  opacity: 0.1;
   top: $spacer4;
-  left: $spacer3;
 }
+
+@media screen and (max-width: $md){
+  #work{
+    left: $spacer1
+  }
+}
+
+@media screen and (min-width: $md){
+  #work{
+    left: $spacer2
+  }
+}
+
+@media screen and (min-width: $lg){
+  #work{
+    left: $spacer3
+  }
+}
+
+
 
 .workTile {
   width: 100%;

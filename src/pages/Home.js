@@ -21,14 +21,12 @@ const workList = work.map(tile => (
       <Tilt>
         <a href={tile.web}>
           <img
-            src={require(`../images/workImages/${tile.imgLink}.png`)}
+            src={require(`../images/workImages/${tile.imgLink}.jpg`)}
             alt={tile.company}
             className="workTile"
           />
         </a>
 
-        <h2 style={{ marginTop: spacer2 }}> {tile.position} </h2>
-        <h3 style={{ marginTop: spacer1 }}> {tile.company} </h3>
       </Tilt>
     </div>
   </Col>

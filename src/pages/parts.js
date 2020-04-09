@@ -10,6 +10,7 @@ class parts extends React.Component {
       <div>
         <Particles
           height="100vh"
+          width = "100vw"
           style={{
             opacity: "0.8",
             position: "fixed",
