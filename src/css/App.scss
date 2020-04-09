@@ -183,6 +183,7 @@ button:hover {
 #workList {
   margin-top: $spacer4 * 1.5;
   margin-bottom: -$spacer3;
+  z-index: 99999;
 }
 
 .misc {

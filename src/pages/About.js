@@ -13,10 +13,10 @@ class About extends React.Component {
         <h1 id="header">ABOUT</h1>
         <Container>
           <Row className="aboutPage" justify="center" align="center">
-            <Col xs={8} md={4}>
+            <Col xs={10} md={4}>
               <img src={require("../images/aboutPagePhoto.jpg")} />
             </Col>
-            <Col xs={8} md={6}>
+            <Col xs={10} md={6}>
               <div>
                 <p>
                   Hi, I'm Paridhi. I'm currently pursuing a B.S. in Computer
