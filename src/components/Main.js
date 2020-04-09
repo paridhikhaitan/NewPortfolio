@@ -18,7 +18,7 @@ class Main extends React.Component{
                     <Route exact path='/work' component={Work}/>
                     <Route exact path='/about' component={About}/>
                     <Route path='/fbu' component={FBUCodepath}/>
-                    <Route path='/parts' component={parts}/>
+                    <Route exact path='/' component={parts}/>
                     <Route path='/infopost' component={InfoPost}/>
                     <Route path='/studybuddy' component={StudyBuddy} />
                     <Route path='/miscellaneous' component={Miscellaneous}/>
