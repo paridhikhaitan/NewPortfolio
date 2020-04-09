@@ -33,7 +33,7 @@ class Navbar extends React.Component {
             </g>
           </svg>
           <h4>
-            <a href="/parts">home</a>
+            <a href="/">home</a>
           </h4>
         </div>
 
