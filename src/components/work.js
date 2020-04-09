@@ -2,19 +2,63 @@ import { spacer3, spacer4 } from "./constants";
 
 export const work = [
   {
+    imgLink: "facebook",
+    position: "Android Development Tutor",
+    company: "Facebook",
+    margin: 0,
+    web: "fbu"
+  },
+  {
     imgLink: "designcommunity",
+    position: "Full Stack Developer",
+    company: "Design Co",
+    margin: 0,
+    web: "designcommunity"
+  },
+  {
+    imgLink: "studybuddy",
+    position: "Full Stack Developer",
+    company: "UCSD Study Buddy",
+    margin: 0,
+    web: "studybuddy"
+  },
+  {
+    imgLink: "d4sd",
+    position: "Web Developer",
+    company: "Protolab",
+    margin: 0,
+    web: "d4sd"
+  },
+  {
+    imgLink: "designco",
+    position: "Web Developer",
+    company: "Design Co",
+    margin: 0,
+    web: "dco"
+  },
+  {
+    imgLink: "infopost",
     position: "Android Development Tutor",
     company: "Facebook",
     margin: 0,
     web: "designcommunity"
   },
   {
-    imgLink: "designco",
+    imgLink: "asgs",
+    position: "Android Development Tutor",
+    company: "Facebook",
+    margin: 0,
+    web: "designcommunity"
+  },
+
+  {
+    imgLink: "frontiers",
     position: "Android Development Tutor",
     company: "Facebook",
     margin: 0,
     web: "designcommunity"
   }
+
   // {
   //     imgLink: "DesignCo",
   //     position: "Web Developer",

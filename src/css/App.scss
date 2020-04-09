@@ -22,7 +22,7 @@ img {
       width: 75%;
       margin-left: auto;
       margin-right: auto;
-      margin-top: 40vh;
+      margin-top: 35vh;
     }
   }
 
@@ -71,64 +71,117 @@ button:hover {
   font-size: 6rem;
 }
 
-.navbar {
-  position: absolute;
+.topNav {
   display: flex;
-  right: $spacer2;
-  top: $spacer2;
-  z-index: 99;
-  a {
-    text-decoration: none;
-    margin-left: $spacer2;
+
+  #home {
+    display: flex;
+    position: absolute;
+    top: $spacer2;
+    left: $spacer2;
+    z-index: 99;
+
+    svg {
+      margin-right: $spacer1/2;
+      width: 20px;
+      height: 20px;
+    }
+
+    h4 {
+      line-height: 24px;
+      a {
+        text-decoration: none;
+      }
+
+      a:hover {
+        cursor: pointer;
+        font-weight: 700;
+      }
+    }
+  }
+  .navbar {
+    position: absolute;
+    display: flex;
+    right: $spacer2;
+    top: $spacer2;
+    z-index: 99;
+
+    h4 {
+      line-height: 24px;
+    }
+
+    a {
+      text-decoration: none;
+      margin-left: $spacer2;
+    }
+
+    a:hover {
+      font-weight: 700;
+    }
   }
 
-  a:hover {
-    font-weight: 700;
+  .active {
+    opacity: 0.5;
+    pointer-events: none;
   }
 }
 
 .footer {
-  position: absolute;
-  bottom: $spacer2;
+  margin-top: $spacer4;
+  margin-bottom: $spacer2;
   z-index: 999;
-
   display: flex;
+
+  #madeby {
+    opacity: 0.5;
+  }
+  #contactInfo {
+    display: flex;
+
+    a {
+      text-decoration: none;
+      margin-left: $spacer2;
+    }
+
+    a:hover {
+      font-weight: 800;
+    }
+  }
 }
 
-#work {
+#header {
   position: fixed;
   font-size: 16rem;
   font-weight: 800;
-  opacity: 0.1;
+  opacity: 0.18;
   top: $spacer4;
 }
 
-@media screen and (max-width: $md){
-  #work{
-    left: $spacer1
+@media screen and (max-width: $md) {
+  #header {
+    left: $spacer1;
   }
 }
 
-@media screen and (min-width: $md){
-  #work{
-    left: $spacer2
+@media screen and (min-width: $md) {
+  #header {
+    left: $spacer2;
   }
 }
 
-@media screen and (min-width: $lg){
-  #work{
-    left: $spacer3
+@media screen and (min-width: $lg) {
+  #header {
+    left: $spacer3;
   }
 }
-
-
 
 .workTile {
   width: 100%;
 }
 
 #workList {
-  margin-top: $spacer4*1.5;
+  margin-top: $spacer4 * 1.5;
+  margin-bottom: -$spacer3;
 }
 
 .misc {
@@ -145,6 +198,7 @@ button:hover {
 }
 
 .innerPages {
+  margin: $spacer4 $spacer2;
   h2 {
     margin-top: $spacer2;
     margin-bottom: $spacer1;
@@ -164,4 +218,8 @@ button:hover {
   a:hover {
     text-decoration: none;
   }
+}
+
+.aboutPage {
+  margin-top: $spacer4 * 1.5;
 }

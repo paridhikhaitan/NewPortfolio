@@ -1,5 +1,6 @@
 import React from "react";
 import { Row, Col, Container } from "react-grid-system";
+import Navbar from "../components/navbar";
 
 class DesignCommunity extends React.Component {
   componentDidMount() {
@@ -9,6 +10,7 @@ class DesignCommunity extends React.Component {
   render() {
     return (
       <div class="innerPages">
+        <Navbar fromPage="designcommunity" />
         <Container>
           <Row>
             <Col xs={12}>

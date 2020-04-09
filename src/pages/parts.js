@@ -10,9 +10,9 @@ class parts extends React.Component {
       <div>
         <Particles
           height="100vh"
-          width = "100vw"
+          width="100vw"
           style={{
-            opacity: "0.8",
+            opacity: "0.85",
             position: "fixed",
             left: "0",
             top: "0"
@@ -40,7 +40,7 @@ class parts extends React.Component {
             }
           }}
         />
-        <Navbar />
+        <Navbar fromPage="home" />
         <div className="splashHeading">
           <div>
             <h1>

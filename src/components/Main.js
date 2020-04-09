@@ -1,7 +1,7 @@
 import React from 'react';
 import { Switch, Route } from 'react-router-dom';
 
-import Home from '../pages/Home'
+import Work from '../pages/Work'
 import About from '../pages/About'
 import FBUCodepath from '../pages/FBUCodepath'
 import InfoPost from '../pages/InfoPost'
@@ -15,7 +15,7 @@ class Main extends React.Component{
         return(
             <main>
                 <Switch>
-                    <Route exact path='/' component={Home}/>
+                    <Route exact path='/work' component={Work}/>
                     <Route exact path='/about' component={About}/>
                     <Route path='/fbu' component={FBUCodepath}/>
                     <Route path='/parts' component={parts}/>
