@@ -1,92 +1,122 @@
-import React from 'react';
-import Navbar from '../components/navbar';
-import { Row, Col } from 'react-grid-system';
-import { spacer2, spacer3 } from '../components/constants';
+import React from "react";
+import Navbar from "../components/navbar";
+import { Row, Col, Container } from "react-grid-system";
+import Footer from "../components/footer";
+import { spacer2, spacer3 } from "../components/constants";
 
-const mainImage={
-    width: '75%',
-    height: 'auto',
-    display: 'block', 
-    marginLeft: 'auto', 
-    marginRight: 'auto', 
-    marginTop: '3vw',
-    marginBottom: '3vw',
-}
+const mainImage = {
+  width: "75%",
+  height: "auto",
+  display: "block",
+  marginLeft: "auto",
+  marginRight: "auto",
+  marginTop: "3vw",
+  marginBottom: "3vw"
+};
 
+const oldInfo = {
+  width: "45%",
+  height: "auto",
+  margin: "2vw",
+  alignItems: "center",
+  justifyContent: "center"
+};
 
-const oldInfo={
-    width:'45%',
-    height: 'auto',
-    margin: '2vw',
-    alignItems: 'center',
-    justifyContent: 'center',
-}
+class InfoPost extends React.Component {
+  render() {
+    return (
+      <div class="innerPages">
+        <Navbar fromPage="infopost" />
+        <Container>
+          <Row>
+            <Col xs={12}>
+              <h1>INFOPOST</h1>
+            </Col>
+            <Col xs={12} md={8}>
+              <br />
+              <p>
+                A San Diego based startup, InfoPost is your personal AI which
+                checks the news you read for credibility. We give trust scores
+                to your news so that you don't consume fake news. This was my
+                first position as a Web Developer, where I learnt React, CSS,
+                JavaScript and so much more!
+              </p>
+            </Col>
+            <Col md={4} xs={12} className="techStack">
+              <br />
+              <span>
+                <p>
+                  Role : Web Development Intern
+                  <br />
+                  <br />
+                  Tech Stack : React, Node.js, CSS, Express, Google Material UI
+                  <br />
+                  <br />
+                  Dates : January 2019 - <b>October 2019</b>
+                </p>
+                <br />
+              </span>
+            </Col>
+          </Row>
 
-class InfoPost extends React.Component{
-    render(){
-        return(
-            <div>
-                <div style={{marginTop: spacer3}}>
-                    <h1>
-                    INFOPOST
-                    </h1>
-                    <p>
-                        <b>Overview: </b>  A San Diego based startup, InfoPost is your personal AI which checks the 
-                        news you read for credibility. We give trust scores to your news so that you don't consume 
-                        fake news. Our advanced artificial intelligence checks your articles for political bias, 
-                        misleading headlines, source accuracy and more so that you trust what you read. 
-                        <br />
-                        
-                    </p>
-                    <br />
+          <Row justify="center">
+            <Col md={8} xs={12}>
+              <img
+                src={require("../images/infopost/infopost.jpg")}
+                style={{ border: "2px solid white" }}
+              />
+            </Col>
+          </Row>
+          <Row justify="center" align="middle">
+            <Col xs={6} md={4}>
+              <a href="https://github.com/paridhikhaitan/InfopostLandingPage">
+                <button>VIEW GITHUB</button>
+              </a>
+            </Col>
+          </Row>
+          <Row>
+            <Col xs={12}>
+              <h2>Challenge</h2>
+              <p>
+                As a newly founded startup, we needed a webpage that would
+                display information about the company in an interactive manner.
+                We also wanted to begin building the front end of our Web
+                Application using React, npm packages, and Google Material UI.
+              </p>
+            </Col>
 
-                    <Row style={{marginTop: spacer2}}>
-                        <Col md={4}>
-                            <h5>Role: Web Developer</h5>
-                        </Col>
-                        <Col md={4}>
-                            <h5>Tools: React, HTML/CSS, JavaScript</h5>
-                        </Col>
-                        <Col md={4}>
-                            <h5>Date: Jan 2019- Present</h5>
-                        </Col>
-                    </Row>
-                
-                    <img src={require('../images/infopost/SplashPage.gif')} alt='Class Photo' style={mainImage}/>
-
-                    <br />
-                    <br />
-                    <p>
-                        <b>Process: </b>  In February, when I started this position, I was completely unfamiliar with 
-                        React. To create a preliminary website for potential investors and users, I tried bringing the vision 
-                        of the UI/UX Designers to life by creating a Single Page Website using basic HTML and CSS. I also added
-                        Google Analytics to this site to get data on the regions and demographic of our potential investors. Using bootstrap
-                        studio, we also successfully made the website responsive for Laptops, Tablets and iPhone.  
-                        <br />
-                        <br />
-                    </p>
-                    <div style={{display: 'flex'}}>
-                        <img src={require('../images/infopost/oldInfo1.png')} alt='Old InfoPost' style={oldInfo}/>
-                        <img src={require('../images/infopost/oldInfo2.png')} alt='Old InfoPost' style={oldInfo}/>
-                    </div>
-                    <p>
-                        While the old site was running for 4 months, we redesigned our application. In light of this change, 
-                        I developed a new website, this time using React. Along with this, I worked on the Web Application for 
-                        InfoPost wherein we used React along with it's several libraries to create the Timeline View, Profile View and 
-                        Political Information page. Through this experience I was able to get a very hands-on experience with React, as 
-                        well as see a startup grow from a single person to a team of ten. Our app is available for download at both &nbsp;
-                        <a href='https://play.google.com/store/apps/details?id=com.InfoPost.InfoPostMain' target='blank'>Google PlayStore</a>
-                        &nbsp; and&nbsp; <a href='https://apps.apple.com/us/app/infopost/id1471442391?ls=1' target='blank'>AppStore</a>.
-                        <br />
-                        <br />
-                        Visit our website at <a href='https://theinfopost.com' target='blank'>www.theinfopost.com</a>
-                    </p>
-        
-
-                </div>
-            </div>
-        );
-    }
+            <Col xs={12}>
+              <h2>Solution</h2>
+              <p>
+                We decided to come up with an MVP that would have information
+                about the company, team, AI and Machine Learning technology. I
+                also collaborated with UI/UX Designers to build the login,
+                signup, and profile in our MVP product.
+              </p>
+            </Col>
+            <Col xs={12} className="keyFeatures">
+              <h2>Contribution and Takeaways</h2>
+              <p>
+                - Investors can see information about the company
+                <br />- Went through 2 rounds of redesign to keep the website
+                consistent with the app rebrand
+                <br />
+                - Created initial Web App mockups for the login, signup, and
+                profile screens.
+                <br />- Participated in weekly scrum meetings to decide tasks,
+                learnt several new technologies to deliver the product in time.
+                <br /> - Helped launch the app for initial Beta testing on the
+                App store and Google Play Store.
+                <br /> Note: The website has been changed now, however, I'm
+                grateful that I was able to contribute to this amazing startup!
+              </p>
+            </Col>
+          </Row>
+        </Container>
+        <Footer />
+      </div>
+    );
+  }
 }
 
 export default InfoPost;
