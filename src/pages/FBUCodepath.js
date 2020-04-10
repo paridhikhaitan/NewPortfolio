@@ -118,7 +118,7 @@ class FBUCodepath extends React.Component {
             </Col>
           </Row>
           <Row justify="center">
-            <Col md={8} xs={12}>
+            <Col md={6} xs={8}>
               <img
                 src={require("../images/FBUCodepath/FBUCodepath2.jpg")}
                 alt="Class Photo"
