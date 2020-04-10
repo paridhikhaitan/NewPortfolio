@@ -10,6 +10,7 @@ import DesignCommunity from "../pages/DesignCommunity";
 import StudyBuddy from "../pages/StudyBuddy";
 import Frontiers from '../pages/Frontiers';
 import parts from "../pages/parts";
+import ASGS from "../pages/ASGS";
 
 class Main extends React.Component {
   render() {
@@ -21,6 +22,7 @@ class Main extends React.Component {
           <Route exact path="/about" component={About} />
           <Route path = "/frontiers" component={Frontiers} />
           <Route path="/fbu" component={FBUCodepath} />
+          <Route path="/asgs" component={ASGS} />
           <Route path="/infopost" component={InfoPost} />
           <Route path="/studybuddy" component={StudyBuddy} />
           <Route path="/miscellaneous" component={Miscellaneous} />

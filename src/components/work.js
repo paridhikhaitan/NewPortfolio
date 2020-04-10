@@ -38,10 +38,10 @@ export const work = [
   },
   {
     imgLink: "infopost",
-    position: "Android Development Tutor",
-    company: "Facebook",
+    position: "Web Developer",
+    company: "InfoPost",
     margin: 0,
-    web: "designcommunity"
+    web: "infopost"
   },
   {
     imgLink: "frontiers",
@@ -52,10 +52,10 @@ export const work = [
   },
   {
     imgLink: "asgs",
-    position: "Android Development Tutor",
-    company: "Facebook",
+    position: "Webmaster",
+    company: "AS Graphic Studio",
     margin: 0,
-    web: "designcommunity"
+    web: "asgs"
   }
 
 
