@@ -91,8 +91,8 @@ class Frontiers extends React.Component {
               </p>
             </Col>
           </Row>
-          <Footer />
         </Container>
+        <Footer />
       </div>
     );
   }

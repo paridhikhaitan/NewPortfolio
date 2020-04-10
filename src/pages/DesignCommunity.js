@@ -1,7 +1,7 @@
 import React from "react";
 import { Row, Col, Container } from "react-grid-system";
 import Navbar from "../components/navbar";
-import Footer from '../components/footer'
+import Footer from "../components/footer";
 
 class DesignCommunity extends React.Component {
   componentDidMount() {
@@ -18,6 +18,7 @@ class DesignCommunity extends React.Component {
               <h1>DESIGN COMMUNITY</h1>
             </Col>
             <Col xs={12} md={8}>
+              <br />
               <p>
                 This page is an online directory aimed to connect UCSD student
                 designers and alumni with each other. As the Web Developer for
@@ -26,6 +27,7 @@ class DesignCommunity extends React.Component {
               </p>
             </Col>
             <Col md={4} xs={12} className="techStack">
+              <br />
               <span>
                 <p>
                   Role : Web Developer
@@ -40,7 +42,6 @@ class DesignCommunity extends React.Component {
               </span>
             </Col>
           </Row>
-          <Row justify="end" className="techStack"></Row>
 
           <Row justify="center">
             <Col md={8} xs={12}>

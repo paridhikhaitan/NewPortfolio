@@ -1,10 +1,13 @@
 import React from "react";
 import { Container, Row, Col } from "react-grid-system";
+import Navbar from "../components/navbar";
+import Footer from "../components/footer";
 
 class StudyBuddy extends React.Component {
   render() {
     return (
       <div class="innerPages">
+        <Navbar fromPage="studybuddy" />
         <Container>
           <Row>
             <Col xs={12}>
@@ -19,8 +22,8 @@ class StudyBuddy extends React.Component {
                 We realised that current information is scattered in endless
                 Facebook threads posted on Facebook, Reddit, Google groups. With
                 our platform, users can remain anonymous when requesting for
-                resources. I worked as the web developer alongside
-                two very talented product designers!
+                resources. I worked as the web developer alongside two very
+                talented product designers!
               </p>
             </Col>
             <Col md={4} xs={12} className="techStack">
@@ -172,6 +175,7 @@ class StudyBuddy extends React.Component {
             </Col>
           </Row>
         </Container>
+        <Footer />
       </div>
     );
   }
