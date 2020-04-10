@@ -1,6 +1,7 @@
 import React from "react";
 import { Row, Col, Container } from "react-grid-system";
 import Navbar from "../components/navbar";
+import Footer from '../components/footer'
 
 class DesignCommunity extends React.Component {
   componentDidMount() {

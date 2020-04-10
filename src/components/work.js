@@ -44,20 +44,21 @@ export const work = [
     web: "designcommunity"
   },
   {
+    imgLink: "frontiers",
+    position: "Web Developer",
+    company: "Design Co",
+    margin: 0,
+    web: "frontiers"
+  },
+  {
     imgLink: "asgs",
     position: "Android Development Tutor",
     company: "Facebook",
     margin: 0,
     web: "designcommunity"
-  },
-
-  {
-    imgLink: "frontiers",
-    position: "Android Development Tutor",
-    company: "Facebook",
-    margin: 0,
-    web: "designcommunity"
   }
+
+
 
   // {
   //     imgLink: "DesignCo",
