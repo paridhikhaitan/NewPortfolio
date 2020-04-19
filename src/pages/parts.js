@@ -20,7 +20,7 @@ class parts extends React.Component {
           params={{
             particles: {
               number: {
-                value: 60
+                value: 80
               },
               move: {
                 direction: "random",
@@ -43,9 +43,24 @@ class parts extends React.Component {
         <Navbar fromPage="home" />
         <div className="splashHeading">
           <div>
+            <h1 style={{ fontSize: "6rem", lineHeight: "7.8rem" }}>
+              Hi, I'm Paridhi!
+            </h1>
+            <br />
             <h1>
-              Hi, I'm Paridhi! I'm a web developer + designer who is studying
-              Computer Science at UCSD.
+              I'm a web developer + designer who is passionate about building
+              products and unique experiences for users.
+            </h1>
+            <br />
+            <h1
+              style={{
+                fontSize: "2rem",
+                lineHeight: "2.8rem",
+                color: "#919191"
+              }}
+            >
+              {" "}
+              Studying Computer Science + Design @ UCSD
             </h1>
           </div>
         </div>
