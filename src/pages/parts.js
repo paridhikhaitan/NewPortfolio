@@ -20,7 +20,7 @@ class parts extends React.Component {
           params={{
             particles: {
               number: {
-                value: 80
+                value: 60
               },
               move: {
                 direction: "random",
