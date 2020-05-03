@@ -70,7 +70,7 @@ class StudyBuddy extends React.Component {
           </Row>
           <Row justify="center" align="middle">
             <Col xs={6} md={3}>
-              <a href="https://study-buddy-helper.herokuapp.com/">
+              <a href="https://study-buddy-ucsd.netlify.app/">
                 <button>VISIT SITE</button>
               </a>
             </Col>
