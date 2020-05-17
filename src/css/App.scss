@@ -201,7 +201,27 @@ button:hover {
 
 .innerPages {
   margin: $spacer4 $spacer3 0 $spacer3;
+  h1{
+    font-size: 5rem;
+    text-align: left;
+    margin-bottom: $spacer2;
+  }
+
+  .innerNumbers{
+    margin: $spacer1 $spacer2;
+  }
+
+  .UserPersona{
+    margin-top: $spacer2;
+
+    img{
+      width: 80%;
+      margin-left: auto;
+      margin-right: auto;
+    }
+  }
   h2 {
+
     margin-top: $spacer2;
     margin-bottom: $spacer1;
   }
