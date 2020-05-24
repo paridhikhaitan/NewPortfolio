@@ -81,21 +81,17 @@ button:hover {
     left: $spacer2;
     z-index: 99;
 
-    svg {
-      margin-right: $spacer1/2;
-      width: 20px;
-      height: 20px;
-    }
-
     h4 {
       line-height: 24px;
       a {
         text-decoration: none;
+        transition: all 0.2s ease-in-out;
       }
 
       a:hover {
         cursor: pointer;
         font-weight: 700;
+        padding-left: 10px;
       }
     }
   }
