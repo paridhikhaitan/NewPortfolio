@@ -145,7 +145,6 @@ button:hover {
 
     a:hover {
       font-weight: 800;
-      color: $lavendar;
     }
   }
 }
@@ -192,13 +191,6 @@ button:hover {
   }
 }
 
-.techStack {
-  h2,
-  p {
-    color: $lavendar;
-  }
-}
-
 @media screen and (min-width: $sm) {
   .innerPages {
     margin: 0 $spacer1;
@@ -239,7 +231,7 @@ button:hover {
   }
 
   img {
-    margin-top: $spacer3;
+    margin: $spacer2 0;
   }
 
   a:hover {

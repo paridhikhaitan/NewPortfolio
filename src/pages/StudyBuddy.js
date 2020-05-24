@@ -155,7 +155,7 @@ class StudyBuddy extends React.Component {
                     style={{ marginTop: 0 }}
                   />
                 </Col>
-                <Col xs={8}>
+                <Col xs={6}>
                   <p>
                     Pappu is an introverted and shy student, who doesn’t feel
                     comfortable asking people for resources on social media
@@ -173,7 +173,7 @@ class StudyBuddy extends React.Component {
                     style={{ marginTop: 0 }}
                   />
                 </Col>
-                <Col xs={8}>
+                <Col xs={6}>
                   <p>
                     Lu is in her third year of university. She is desperately
                     searching for the textbook for MGT 103 offered by Prof.
@@ -192,7 +192,7 @@ class StudyBuddy extends React.Component {
                     style={{ marginTop: 0 }}
                   />
                 </Col>
-                <Col xs={8}>
+                <Col xs={6}>
                   <p>
                     Camilla is an enthusiastic student who worked tirelessly
                     through university to maintain an almost perfect GPA. Now in
@@ -233,7 +233,7 @@ class StudyBuddy extends React.Component {
             <Col xs={12}>
               <h2>First Design Iteration</h2>
               <Row justify="center">
-                <Col md={6} xs={10}>
+                <Col md={5} xs={8}>
                   <img
                     src={require("../images/studybuddy/firstDesign.png")}
                     style={{ border: "2px solid white" }}
@@ -266,15 +266,13 @@ class StudyBuddy extends React.Component {
                 workflows for <b>user upload.</b>
               </p>
               <Row justify="center">
-                <Col md={6} xs={10}>
+                <Col md={8} xs={10}>
                   <img
                     src={require("../images/studybuddy/alternateDesigns.png")}
                     style={{ border: "2px solid white" }}
                   />
                 </Col>
               </Row>
-              <br />
-              <br />
               <p>
                 Design 1 : Followed a TypeForm approach, where a user had to
                 complete one task at a time. We wanted to encourage resources by
@@ -282,7 +280,7 @@ class StudyBuddy extends React.Component {
                 simple steps.
               </p>
               <Row justify="center">
-                <Col md={6} xs={10}>
+                <Col md={5} xs={10}>
                   <img
                     src={require("../images/studybuddy/uploadScreen.png")}
                     style={{ border: "2px solid white" }}
@@ -347,7 +345,21 @@ class StudyBuddy extends React.Component {
                 <a href="https://warm-mesa-02077.herokuapp.com/api/wishes">
                   user requests
                 </a>{" "}
-                (for the books that they need)
+                (for the books that they need).
+                <Row justify="center">
+                  <Col md={6} xs={10}>
+                    <img
+                      src={require("../images/studybuddy/books.jpg")}
+                      style={{ border: "2px solid white" }}
+                      id="communitySplashImage"
+                      onLoad={() => {
+                        document.getElementById(
+                          "communitySplashImage"
+                        ).style.display = "block";
+                      }}
+                    />
+                  </Col>
+                </Row>
                 <br />
                 <br />- User can view all the resources in our database. We
                 currently have over 200 materials and hope to keep expanding it.
@@ -356,7 +368,7 @@ class StudyBuddy extends React.Component {
                 <Row justify="center">
                   <Col md={6} xs={10}>
                     <img
-                      src={require("../images/studybuddy/books.jpg")}
+                      src={require("../images/studybuddy/upload.jpg")}
                       style={{ border: "2px solid white" }}
                       id="communitySplashImage"
                       onLoad={() => {
@@ -372,24 +384,6 @@ class StudyBuddy extends React.Component {
                 user research, we found that anonymity was important to users.
                 This was also the phase where we went through two versions, and
                 settled on this one. It increased our potential users by 50%.
-                <Row justify="center">
-                  <Col md={6} xs={10}>
-                    <img
-                      src={require("../images/studybuddy/upload.jpg")}
-                      style={{ border: "2px solid white" }}
-                      id="communitySplashImage"
-                      onLoad={() => {
-                        document.getElementById(
-                          "communitySplashImage"
-                        ).style.display = "block";
-                      }}
-                    />
-                  </Col>
-                </Row>
-                <br />- Lastly, to make our platform robust, we wanted to allow
-                users to request resources. Once they did, their peers could
-                seamlessly upload them to our database and it would be available
-                for all UCSD Students.
               </p>
               <Row justify="center">
                 <Col md={6} xs={10}>
@@ -405,6 +399,10 @@ class StudyBuddy extends React.Component {
                   />
                 </Col>
               </Row>
+              <br />- Lastly, to make our platform robust, we wanted to allow
+              users to request resources. Once they did, their peers could
+              seamlessly upload them to our database and it would be available
+              for all UCSD Students.
             </Col>
             <Col xs={12}>
               <h2>Future Work</h2>
@@ -426,6 +424,9 @@ class StudyBuddy extends React.Component {
                   4. Login profiles for users to be able to track how many
                   resources they’ve submitted.
                 </div>
+                I believe that these changes will increase user interaction and
+                user traffic to our website, as they'll be able to find and
+                upload resoucrsed quickly.
               </p>
             </Col>
           </Row>
