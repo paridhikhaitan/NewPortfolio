@@ -43,7 +43,7 @@ class parts extends React.Component {
         <Navbar fromPage="home" />
         <div className="splashHeading">
           <div>
-            <h1 style={{ fontSize: "6rem", lineHeight: "7.8rem" }}>
+            <h1 style={{ fontSize: "6rem", lineHeight: "7.8rem"}}>
               Hi, I'm Paridhi!
             </h1>
             <br />

@@ -199,38 +199,43 @@ button:hover {
   }
 }
 
+@media screen and (min-width: $sm) {
+  .innerPages {
+    margin: 0 $spacer1;
+  }
+}
+
+@media screen and (min-width: $lg) {
+  .innerPages {
+    margin: 0 $spacer3;
+  }
+}
+
 .innerPages {
-  margin: $spacer4 $spacer3 0 $spacer3;
-  h1{
+  margin-top: $spacer4;
+
+  h1 {
     font-size: 5rem;
     text-align: left;
     margin-bottom: $spacer2;
   }
 
-  .innerNumbers{
+  .innerNumbers {
     margin: $spacer1 $spacer2;
   }
 
-  .UserPersona{
+  .UserPersona {
     margin-top: $spacer2;
 
-    img{
+    img {
       width: 80%;
       margin-left: auto;
       margin-right: auto;
     }
   }
   h2 {
-
-    margin-top: $spacer2;
-    margin-bottom: $spacer1;
-  }
-
-  .keyFeatures {
-    h2,
-    p {
-      color: $lavendar;
-    }
+    margin-top: $spacer3;
+    margin-bottom: $spacer2;
   }
 
   img {
@@ -245,5 +250,3 @@ button:hover {
 .aboutPage {
   margin-top: $spacer4 * 1.5;
 }
-
-

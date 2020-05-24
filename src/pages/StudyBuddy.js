@@ -6,7 +6,7 @@ import Footer from "../components/footer";
 class StudyBuddy extends React.Component {
   render() {
     return (
-      <div class="innerPages">
+      <div class="innerPages studybuddy">
         <Navbar fromPage="studybuddy" />
         <Container>
           <Row>
