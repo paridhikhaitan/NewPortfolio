@@ -246,8 +246,16 @@ button:hover {
       margin-bottom: $spacer2;
     }
 
-    p{
+    p {
       margin-bottom: $spacer1/2;
+    }
+  }
+
+  .mediumArticle {
+    padding-top: $spacer2;
+    font-size: 2.2rem;
+    * {
+      color: #7eb8fc;
     }
   }
 }

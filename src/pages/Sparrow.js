@@ -44,10 +44,9 @@ class Sparrow extends React.Component {
           <Row justify="end" className="techStack"></Row>
 
           <Row justify="center">
-            <Col md={8} xs={12}>
+            <Col md={10} xs={12}>
               <img
-                src={require("../images/studybuddy/splash.jpg")}
-                style={{ border: "2px solid white" }}
+                src={require("../images/sparrow/sparrow_landing.jpg")}
                 id="communitySplashImage"
                 onLoad={() => {
                   document.getElementById(
@@ -86,12 +85,16 @@ class Sparrow extends React.Component {
                   of follow up appointments.
                 </div>
               </p>
-              <h5>
+              <p className="mediumArticle">
+                Read about our{" "}
                 <a
                   href="https://medium.com/ucsd-cogs-187a-summer-2018/brainstorming-and-logos-sparrows-d4244452654f"
                   target="_blank"
-                ></a>
-              </h5>
+                >
+                  Brainstorming on Medium
+                </a>
+                .
+              </p>
             </Col>
 
             <Col xs={12}>
@@ -115,6 +118,16 @@ class Sparrow extends React.Component {
                   </p>
                 </Col>
               </Row>
+              <p className="mediumArticle">
+                Read about our{" "}
+                <a
+                  href="https://medium.com/ucsd-cogs-187a-summer-2018/personas-storyboards-and-portfolio-sparrow-e8a5b758cd66"
+                  target="_blank"
+                >
+                  Personas and Storyboards on Medium
+                </a>
+                .
+              </p>
             </Col>
 
             <Col xs={12} className="keyFeatures">
@@ -139,14 +152,12 @@ class Sparrow extends React.Component {
 
             <Col xs={12}>
               <h2>Low Fidelity Prototypes</h2>
-
               <p>
                 We created designs for our main landing dashboard page, that
                 would consist of the most important information. From there, the
                 user could navigate to the speech translation page, find health
                 care page, and insurance card page.
               </p>
-
               <br />
               <br />
               <Row justify="center">
@@ -156,6 +167,16 @@ class Sparrow extends React.Component {
                   />
                 </Col>
               </Row>
+              <p className="mediumArticle">
+                Read about our{" "}
+                <a
+                  href="https://medium.com/ucsd-cogs-187a-summer-2018/week-3-prototyping-da24d523562b"
+                  target="_blank"
+                >
+                  Prototyping process on Medium
+                </a>
+                .
+              </p>
             </Col>
 
             <Col xs={12}>
@@ -185,6 +206,16 @@ class Sparrow extends React.Component {
                 In light of these, we decided to stick with streamlining the
                 insurance, language translation and health care information as
                 our priority.
+              </p>
+              <p className="mediumArticle">
+                Read about our{" "}
+                <a
+                  href="https://medium.com/ucsd-cogs-187a-summer-2018/week-4-conducting-user-testing-5a7489dfcd18"
+                  target="_blank"
+                >
+                  User Testing on Medium
+                </a>
+                .
               </p>
             </Col>
 
