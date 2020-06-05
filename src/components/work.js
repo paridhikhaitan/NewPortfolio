@@ -36,6 +36,14 @@ export const work = [
     margin: 0,
     web: "dco"
   },
+
+  {
+    imgLink: "sparrow",
+    position: "UI/UX Design + Content Strategy",
+    company: "Sparrow",
+    margin: 0,
+    web: "sparrow"
+  },
   {
     imgLink: "infopost",
     position: "Web Developer",
@@ -43,13 +51,13 @@ export const work = [
     margin: 0,
     web: "infopost"
   },
-  {
-    imgLink: "frontiers",
-    position: "Web Developer",
-    company: "Design Co",
-    margin: 0,
-    web: "frontiers"
-  },
+  // {
+  //   imgLink: "frontiers",
+  //   position: "Web Developer",
+  //   company: "Design Co",
+  //   margin: 0,
+  //   web: "frontiers"
+  // },
   {
     imgLink: "asgs",
     position: "Webmaster",
@@ -57,8 +65,6 @@ export const work = [
     margin: 0,
     web: "asgs"
   }
-
-
 
   // {
   //     imgLink: "DesignCo",

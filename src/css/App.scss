@@ -238,3 +238,16 @@ button:hover {
 .aboutPage {
   margin-top: $spacer4 * 1.5;
 }
+
+.sparrow {
+  .finalFeatures {
+    h3 {
+      color: #7eb8fc;
+      margin-bottom: $spacer2;
+    }
+
+    p{
+      margin-bottom: $spacer1/2;
+    }
+  }
+}

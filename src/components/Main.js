@@ -11,6 +11,7 @@ import StudyBuddy from "../pages/StudyBuddy";
 import Frontiers from '../pages/Frontiers';
 import parts from "../pages/parts";
 import ASGS from "../pages/ASGS";
+import Sparrow from '../pages/Sparrow'
 
 class Main extends React.Component {
   render() {
@@ -27,6 +28,7 @@ class Main extends React.Component {
           <Route path="/studybuddy" component={StudyBuddy} />
           <Route path="/miscellaneous" component={Miscellaneous} />
           <Route path="/designCommunity" component={DesignCommunity} />
+          <Route path = "/sparrow" component={Sparrow} />
         </Switch>
       </main>
     );
