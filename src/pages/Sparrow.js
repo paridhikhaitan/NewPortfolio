@@ -46,13 +46,7 @@ class Sparrow extends React.Component {
           <Row justify="center">
             <Col md={10} xs={12}>
               <img
-                src={require("../images/sparrow/sparrow_landing.jpg")}
-                id="communitySplashImage"
-                onLoad={() => {
-                  document.getElementById(
-                    "communitySplashImage"
-                  ).style.display = "block";
-                }}
+                src={require("../images/sparrow/sparrow_landing.png")}
               />
             </Col>
           </Row>
